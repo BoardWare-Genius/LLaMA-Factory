@@ -1,4 +1,78 @@
 {
+<<<<<<< HEAD
+=======
+  "mo_caption":{
+    "file_name": "simple_vqa_data_with_images.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"messages",
+      "images":"images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mo_vqa":{
+    "file_name": "vqa_data_with_images.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"messages",
+      "images":"images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mo_qa":{
+    "file_name": "vqa_data.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "mwh_wov":{
+    "file_name": "mwh_pt_11k.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"conversations"
+    }
+  },
+  "mwh_wo":{
+    "file_name": "mwh_vqa_5k.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"conversations",
+      "images":"images"
+    }
+  },
+  "coig":{
+    "file_name": "COIG-12K.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"conversations"
+    }
+  },
+  "cc3m_vqa":{
+    "file_name": "llava_cc3m_50K.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"conversations",
+      "images":"images"
+    }
+  },
+>>>>>>> a99092c0 (SFT qwen2_vl with mo)
   "identity": {
     "file_name": "identity.json"
   },
@@ -274,7 +348,11 @@
     "tags": {
       "role_tag": "role",
       "content_tag": "content",
+<<<<<<< HEAD
       "user_tag": "user",
+=======
+      "user_tag": "human",
+>>>>>>> a99092c0 (SFT qwen2_vl with mo)
       "assistant_tag": "assistant"
     }
   },
@@ -559,6 +637,7 @@
       "images": "images"
     }
   },
+<<<<<<< HEAD
   "rlaif_v": {
     "hf_hub_url": "openbmb/RLAIF-V-Dataset",
     "ranking": true,
@@ -569,6 +648,8 @@
       "images": "image"
     }
   },
+=======
+>>>>>>> a99092c0 (SFT qwen2_vl with mo)
   "orca_pairs": {
     "hf_hub_url": "Intel/orca_dpo_pairs",
     "ranking": true,

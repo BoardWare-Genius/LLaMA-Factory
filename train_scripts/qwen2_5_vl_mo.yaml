@@ -12,7 +12,7 @@ lora_rank: 32
 lora_target: all
 
 ### dataset
-dataset: mwh_wov, coig, mwh_wo, cc3m_vqa
+dataset: mwh_wov, coig, mo_qa, mo_vqa, cc3m_vqa, mo_caption
 dataset_dir: /Code/LLaMA-Factory/data
 template: qwen2_vl
 cutoff_len: 3072
@@ -22,7 +22,7 @@ preprocessing_num_workers: 16
 dataloader_num_workers: 4
 
 ### output
-output_dir: /Model/LoRA/Qwen2.5_VL_MO/20250509_r32_e5
+output_dir: /Model/LoRA/Qwen2.5_VL_MO/20250519_v2
 logging_steps: 1
 save_steps: 2500
 plot_loss: true
@@ -35,9 +35,9 @@ per_device_train_batch_size: 8
 gradient_accumulation_steps: 4
 freeze_vision_tower: true
 learning_rate: 1.0e-4
-num_train_epochs: 5.0
+num_train_epochs: 2.0
 lr_scheduler_type: cosine
-warmup_ratio: 0.1
+warmup_ratio: 0.02
 fp16: true
 ddp_timeout: 180000000
 resume_from_checkpoint: null
