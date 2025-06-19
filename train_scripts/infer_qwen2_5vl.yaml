@@ -1,0 +1,15 @@
+## 2.5-vl
+# model_name_or_path: /Model/Weight/Qwen2.5-VL-7B-Instruct
+# adapter_name_or_path: /Model/LoRA/Qwen2.5_VL_MO/20250519_v2
+# template: qwen2_vl
+# finetuning_type: lora
+# infer_backend: huggingface  # choices: [huggingface, vllm, sglang]
+# trust_remote_code: true
+
+## 2.5-chat
+model_name_or_path: /Model/Weight/Qwen2.5-14B-Instruct
+adapter_name_or_path: /Model/LoRA/Qwen2.5_BW/20250613_v2
+template: qwen
+finetuning_type: lora
+infer_backend: huggingface  # choices: [huggingface, vllm, sglang]
+trust_remote_code: true

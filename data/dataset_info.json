@@ -1,6 +1,56 @@
 {
-<<<<<<< HEAD
-=======
+  "bw_gen":{
+    "file_name": "bw_gen_refined.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages":"conversation"
+    },
+    "tags":{
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag":"user",
+      "assistant_tag":"assistant"
+    }
+  },
+  "bw_ed": {
+    "file_name": "bw_ed_refined.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "bw_info_spe": {
+    "file_name": "bw_sharegpt_format.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  }, 
+  "bw_info": {
+    "file_name": "bw_info_20250527_qa_pairs.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "mo_caption":{
     "file_name": "simple_vqa_data_with_images.json",
     "formatting": "sharegpt",
@@ -71,8 +121,7 @@
       "messages":"conversations",
       "images":"images"
     }
-  },
->>>>>>> a99092c0 (SFT qwen2_vl with mo)
+  }, 
   "identity": {
     "file_name": "identity.json"
   },
@@ -348,11 +397,7 @@
     "tags": {
       "role_tag": "role",
       "content_tag": "content",
-<<<<<<< HEAD
       "user_tag": "user",
-=======
-      "user_tag": "human",
->>>>>>> a99092c0 (SFT qwen2_vl with mo)
       "assistant_tag": "assistant"
     }
   },
@@ -637,7 +682,6 @@
       "images": "images"
     }
   },
-<<<<<<< HEAD
   "rlaif_v": {
     "hf_hub_url": "openbmb/RLAIF-V-Dataset",
     "ranking": true,
@@ -648,8 +692,6 @@
       "images": "image"
     }
   },
-=======
->>>>>>> a99092c0 (SFT qwen2_vl with mo)
   "orca_pairs": {
     "hf_hub_url": "Intel/orca_dpo_pairs",
     "ranking": true,
